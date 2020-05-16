@@ -46,7 +46,7 @@ public class App {
             executor.execute(()->{
                 runnables.forEach(Runnable::run);
             });
-        }//asdasdasaaaasdasd
+        }
     }
 
     public static void test(String str) {
