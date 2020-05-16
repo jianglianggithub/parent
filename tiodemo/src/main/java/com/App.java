@@ -48,7 +48,7 @@ public class App {
             });
         }
     }
-
+//asdadadasdasdasdasdasdasd
     public static void test(String str) {
         char old[]="AEHIJLMOSTUVWXYZ12358".toCharArray();
         char temp[]="A3HILJMO2TUVWXYZ1SEZ8".toCharArray();
