@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mapper.AbcMapper">
+
+
+    <insert id="insert" >
+        insert into zhujian_ceshi_table(id,aa) values(222,'aaa')
+      <selectKey resultType="java.lang.Long"  order="AFTER"  keyProperty="id">
+          SELECT LAST_INSERT_ID() as id
+      </selectKey>
+    </insert>
+
+    <resultMap id="aaa" type="com.pojo.Pyg">
+        <id column="aa" property="aa" />
+        <result column="aaaa" property="aaaa" />
+
+    </resultMap>
+    <select id="ssss" resultMap="aaa">
+          select * from abc
+    </select>
+</mapper>

@@ -1,0 +1,16 @@
+2020-02-18 19:07:19.794 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 10656 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-02-18 19:07:19.798 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-02-18 19:07:22.924 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-02-18 19:07:22.940 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-02-18 19:07:22.950 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-02-18 19:07:22.950 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-18 19:07:23.099 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-02-18 19:07:23.099 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3040 ms
+2020-02-18 19:07:23.303 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-18 19:07:23.470 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-02-18 19:07:23.566 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-02-18 19:07:23.593 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-02-18 19:07:23.597 [main] INFO  com.App                                  [59 ] : Started App in 4.395 seconds (JVM running for 4.848)
+2020-02-18 19:07:30.703 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-18 19:07:30.703 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-02-18 19:07:30.707 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 4 ms

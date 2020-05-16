@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+
+
+option java_package = "com";
+option java_outer_classname = "AddressBookProtos";
+
+message Person {
+     string name = 1;
+     int32 id = 2;
+     string email = 3;
+     PhoneNumber phones = 4;
+     oneof Profession{  //在使用时，下面的三个值，只能有一个值生效
+                        string math=11; //以最后一次设置的值为准，如果最后一次设置的值为math，那么Profession的值就是math
+                        string compute=12;//如果最后一次设置的值为compute，那么Profession的值就是compute
+                        string chemistry=13;
+     }
+
+     enum PhoneType {
+        MOBILE = 0;
+        HOME = 1;
+        WORK = 2;
+    }
+
+    message PhoneNumber {
+        PhoneType number = 1;
+
+    }
+
+
+}
+
+

@@ -1,0 +1,319 @@
+//package com;
+//
+//
+//import ch.qos.logback.classic.sift.AppenderFactoryUsingJoran;
+//import com.alibaba.fastjson.JSON;
+//import com.jiekou.Cs;
+//import org.elasticsearch.action.admin.indices.create.CreateIndexRequest;
+//import org.elasticsearch.action.admin.indices.create.CreateIndexResponse;
+//import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
+//import org.elasticsearch.action.delete.DeleteRequest;
+//import org.elasticsearch.action.get.GetRequest;
+//import org.elasticsearch.action.get.GetResponse;
+//import org.elasticsearch.action.index.IndexRequest;
+//import org.elasticsearch.action.search.SearchRequest;
+//import org.elasticsearch.action.search.SearchResponse;
+//import org.elasticsearch.action.update.UpdateRequest;
+//import org.elasticsearch.action.update.UpdateResponse;
+//import org.elasticsearch.client.RestClient;
+//import org.elasticsearch.client.RestHighLevelClient;
+//import org.elasticsearch.common.xcontent.XContentType;
+//import org.elasticsearch.index.query.*;
+//import org.elasticsearch.search.SearchHit;
+//import org.elasticsearch.search.SearchHits;
+//import org.elasticsearch.search.aggregations.Aggregation;
+//import org.elasticsearch.search.aggregations.AggregationBuilder;
+//import org.elasticsearch.search.aggregations.AggregationBuilders;
+//import org.elasticsearch.search.aggregations.Aggregations;
+//import org.elasticsearch.search.aggregations.bucket.terms.ParsedStringTerms;
+//import org.elasticsearch.search.aggregations.bucket.terms.Terms;
+//import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilder;
+//import org.elasticsearch.search.aggregations.metrics.avg.AvgAggregationBuilder;
+//import org.elasticsearch.search.aggregations.metrics.avg.ParsedAvg;
+//import org.elasticsearch.search.builder.SearchSourceBuilder;
+//import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
+//import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
+//import org.elasticsearch.search.sort.SortOrder;
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.http.ResponseEntity;
+//import org.springframework.test.context.junit4.SpringRunner;
+//import org.springframework.web.client.RestTemplate;
+//
+//import java.io.File;
+//import java.io.IOException;
+//import java.net.URL;
+//import java.util.*;
+//
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
+//public class TestGo {
+//
+//
+//    @Autowired
+//    RestHighLevelClient highLevelClient;
+//
+//    @Autowired
+//    RestClient lowRestClient;
+//
+//
+//    @Test
+//    public void createIndexStore() throws IOException {
+//
+////创建索引请求对象，并设置索引名称
+//        CreateIndexRequest createIndexRequest = new CreateIndexRequest("aaa");
+//        Map<String,Object> map=new HashMap<>();
+//        map.put("number_of_shards",1);
+//        map.put("number_of_replicas",0);
+////设置索引参数
+//        createIndexRequest.settings(map);
+//        createIndexRequest.mapping("doc","{\n" +
+//                "\t\"properties\": {\n" +
+//                "\t\t\"username\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"password\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"salt\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"name\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"userpic\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"utype\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"birthday\": {\n" +
+//                "\t\t\t\"type\": \"date\",\n" +
+//                "\t\t\t\"index\": \"false\",\n" +
+//                "\t\t\t\"format\": \"yyyy‐MM‐dd HH:mm:ss||yyyy‐MM‐dd||epoch_millis\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"sex\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"email\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"phone\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"qq\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"status\": {\n" +
+//                "\t\t\t\"type\": \"text\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"create_time\": {\n" +
+//                "\t\t\t\"type\": \"date\",\n" +
+//                "\t\t\t\"index\": \"false\",\n" +
+//                "\t\t\t\"format\": \"yyyy‐MM‐dd HH:mm:ss||yyyy‐MM‐dd||epoch_millis\"\n" +
+//                "\t\t},\n" +
+//                "\t\t\"update_time\": {\n" +
+//                "\t\t\t\"type\": \"date\",\n" +
+//                "\t\t\t\"index\": \"false\",\n" +
+//                "\t\t\t\"format\": \"yyyy‐MM‐dd HH:mm:ss||yyyy‐MM‐dd||epoch_millis\"\n" +
+//                "\t\t}\n" +
+//                "\t}\n" +
+//                "}", XContentType.JSON);
+//        CreateIndexResponse createIndexResponse = highLevelClient.indices().create(createIndexRequest);
+//    }
+//
+//
+//    @Test
+//    public void delete() throws IOException {
+//        System.out.println(highLevelClient.indices().delete(new DeleteIndexRequest("aaa")).isAcknowledged());
+//    }
+//    @Autowired
+//    Cs cs;
+//    @Test
+//    public void addshuju(){
+//        long l = System.currentTimeMillis();
+//        for (int i = 100; i < 100000; i++) {
+//            final Enritya entitya = new Enritya();
+//            entitya.birthday=new Date();
+//            entitya.create_time=new Date();
+//            entitya.email=i+"qqq@qq.com";
+//            entitya.id=i+"";
+//            entitya.name=i+"傻逼";
+//            entitya.password=i+"123";
+//            entitya.phone=i+"1314520";
+//            entitya.salt=i+"a";
+//            entitya.status=i+"1";
+//            entitya.username=i+"qweq";
+//            entitya.utype="a";
+//            cs.insert(entitya);
+//        }
+//        System.out.println(System.currentTimeMillis()-l);
+//
+//    }
+//
+//
+//    @Autowired
+//    RestTemplate restTemplate;
+//
+//    @Test //导入索引库
+//    public void add() throws IOException {
+//
+//        for (Enritya enritya : cs.selectList(null)) {
+//            Map map = JSON.parseObject(JSON.toJSONString(enritya), Map.class);
+//            final Object id = map.remove("id");
+//            System.out.println(JSON.toJSONString(map));
+//            final Map map1 = restTemplate.postForObject("http://localhost:9200/aaa/doc/{id}", map, Map.class,id);
+//            System.out.println(map1);
+//        }
+//
+//    }
+//
+//    // 通过id获取 然后更新
+//    @Test
+//    public void serach() throws IOException {
+//        final GetRequest getRequest = new GetRequest("bb", "doc", "50");
+//        final GetResponse documentFields = highLevelClient.get(getRequest);
+//        documentFields.isExists();//判断是否有_source 文档数据
+//
+//        System.out.println(documentFields.getSource());
+//
+//        // 更新
+//        final UpdateRequest updateRequest = new UpdateRequest("aaa","doc",documentFields.getId());
+//        updateRequest.doc(documentFields.getSource());
+//        final UpdateResponse update = highLevelClient.update(updateRequest);
+//        System.out.println(update.status());
+//
+//        // 删除
+//        final DeleteRequest deleteRequest = new DeleteRequest("aaa", "doc", documentFields.getId());
+//        System.out.println(highLevelClient.delete(deleteRequest).status());
+//    }
+//
+//
+//    @Test
+//    public void search1() throws IOException {
+//        final SearchRequest searchRequest = new SearchRequest("aaa");
+//        searchRequest.types("doc");
+//        final SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+//        //searchSourceBuilder.fetchSource(new String[]{},new String[]{"name"});
+//        //searchSourceBuilder.size(1000);
+//
+//        //匹配 多个id
+////        List<String> list=new ArrayList<>();
+////        list.add("1");
+////        list.add("11112");
+////        searchSourceBuilder.query( QueryBuilders.termsQuery("_id",list));
+//        //final MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery("name", "傻逼的");
+//        //matchQueryBuilder.minimumShouldMatch("50%");
+//
+////        final MultiMatchQueryBuilder field = QueryBuilders.multiMatchQuery("11傻逼", "name", "password").analyzer("ik_smart")
+////                .field("name", 10f);
+//        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+//        //boolQueryBuilder.must(matchQueryBuilder);
+//        final MultiMatchQueryBuilder field = QueryBuilders.multiMatchQuery("1111傻逼", "name", "password")
+//                .field("name", 10f);
+//        TermQueryBuilder name1 = QueryBuilders.termQuery("name", "11120");
+//
+//        boolQueryBuilder.must(field);
+//        boolQueryBuilder.should(name1);
+//
+//       // boolQueryBuilder.filter(QueryBuilders.rangeQuery("birthday").lt(new Date()));
+//        searchSourceBuilder.query(boolQueryBuilder);
+//
+//        //设置高亮
+//        final HighlightBuilder highlightBuilder = new HighlightBuilder()
+//                .field("name")
+//                .field("password")
+//                .preTags("<em style='color=red'>")
+//                .postTags("</em>");
+//
+//        List<String> list=new ArrayList<>();
+//
+//
+//        searchSourceBuilder.highlighter(highlightBuilder);
+//
+//        //排序
+//        searchSourceBuilder.sort("_id", SortOrder.DESC);
+//        searchRequest.source(searchSourceBuilder);
+//        SearchResponse search = highLevelClient.search(searchRequest);
+//        // 命中 的所有满足条件的source
+//        final SearchHit[] hits = search.getHits().getHits();
+//        System.out.println(hits.length);
+//        for (SearchHit hit : hits) {
+//            System.out.println(hit.getId());
+//            //  System.out.println(hit.getSourceAsString());
+//            Map<String, Object> sourceAsMap = hit.getSourceAsMap();
+//            Map<String, HighlightField> hig = hit.getHighlightFields();
+//            hig.entrySet().stream().forEach(item->sourceAsMap.put(item.getKey(),item.getValue().getFragments()[0].string()));
+//            System.out.println(sourceAsMap);
+//        }
+//    }
+//
+//    @Test //分组
+//    // 注意  es  聚合查询不能和 条件查询一起用
+//    //  聚合查询  在返回的命中的集合中 全部逗是符合条件的 his
+//    public void qw() throws IOException {
+//        SearchRequest searchRequest = new SearchRequest("cc").types("doc");
+//        // terms 定义一个 标准的 分组  聚合info 会放到 map key=aa 对应的value中
+//        //  因为开发人员可以定义多个 聚合信息 如果最大 最小 等等 然后绑定一个key 那么相当于
+//        // 一个查询  又有多个小查询
+//        // 而且 聚合查询可以配合  正常的条件查询一起返回不冲突 ，封装的类不同
+//        TermsAggregationBuilder field = AggregationBuilders.terms("aa").field("t1");//分组查询
+//        AvgAggregationBuilder field1 = AggregationBuilders.avg("avg").field("i1");
+//        searchRequest.source(
+//                new SearchSourceBuilder()
+//               .aggregation(field).aggregation(field1)
+//        );
+//        SearchResponse search = highLevelClient.search(searchRequest);
+//
+//        for (SearchHit hit : search.getHits()) {
+//            System.out.println(hit.getId());
+//            System.out.println(hit.getSourceAsMap());
+//        }
+//
+//
+//        //获取聚合函数 的查询
+//        Aggregations aggregations = search.getAggregations();
+//        // 获取 分组查询
+//        ParsedStringTerms group = aggregations.get("aa");
+//        Map map=new HashMap();
+//        for (Terms.Bucket bucket : group.getBuckets()) {
+//            // 获取该域分组 后  每一个组的名称    和该组的 个数
+//            // 如果要通过 对应的 name找到域 还必须得提前存储到map中 es没有返回对应得feildName
+//            final Object key = bucket.getKey();
+//            map.put(bucket.getKeyAsString(),bucket.getDocCount());
+//        }
+//
+//        ParsedAvg avg = aggregations.get("avg");
+//        System.out.println(avg.getValue()+"获取平均数");//获取平均数
+//        System.out.println(avg.getType());//获取类型其实是获取key的名字
+//
+//
+//
+//    }
+//
+//    @Test
+//    public void search3() throws IOException {
+//        final SearchRequest searchRequest = new SearchRequest("bb");
+//        searchRequest.types("doc");
+//        final SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+//        searchRequest.source(searchSourceBuilder);
+//        //前缀匹配
+//        //searchSourceBuilder.query(QueryBuilders.prefixQuery("a1","a"));
+//
+//        // 计数 求和得时候 指定域中 doc对应feild =null 不会算在count中
+//        //searchSourceBuilder.aggregation(AggregationBuilders.sum("avg").field("_id"));
+//        // 全字段查询   相当于查询 _ALL 把所有feild组合成一个字段   +xx 必须要有得  -xx 必须没有得
+//        searchSourceBuilder.query(QueryBuilders.simpleQueryStringQuery("+张"));
+//        SearchResponse search = highLevelClient.search(searchRequest);
+//        for (SearchHit hit : search.getHits()) {
+//            System.out.println(hit.getSourceAsString());
+//        }
+//    }
+//
+//
+//
+//
+//
+//}

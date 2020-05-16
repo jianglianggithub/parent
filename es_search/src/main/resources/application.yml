@@ -1,0 +1,11 @@
+server:
+  port: ${port:8080}
+spring:
+  application:
+    name: search
+
+
+elasticsearch:
+  cluster-nodes: 127.0.0.1:9300
+  cluster-name: xuecheng
+

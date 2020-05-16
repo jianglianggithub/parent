@@ -1,0 +1,22 @@
+2020-04-30 11:37:51.816 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on DESKTOP-AVNRGGO with PID 15572 (started by jiangliang in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-30 11:37:51.817 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-30 11:37:53.492 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-30 11:37:53.496 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-30 11:37:53.823 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 311ms. Found 0 repository interfaces.
+2020-04-30 11:37:54.662 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-30 11:37:54.743 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-30 11:37:55.218 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 3.74 seconds (JVM running for 4.358)
+2020-04-30 11:37:55.992 [main] INFO  io.lettuce.core.EpollProvider            [68 ] : Starting without optional epoll library
+2020-04-30 11:37:55.993 [main] INFO  io.lettuce.core.KqueueProvider           [70 ] : Starting without optional kqueue library
+2020-04-30 11:37:57.691 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-30 11:41:31.203 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on DESKTOP-AVNRGGO with PID 15276 (started by jiangliang in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-30 11:41:31.223 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-30 11:41:32.980 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-30 11:41:32.982 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-30 11:41:33.311 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 320ms. Found 0 repository interfaces.
+2020-04-30 11:41:34.130 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-30 11:41:34.203 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-30 11:41:34.621 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 3.723 seconds (JVM running for 4.286)
+2020-04-30 11:41:35.332 [main] INFO  io.lettuce.core.EpollProvider            [68 ] : Starting without optional epoll library
+2020-04-30 11:41:35.333 [main] INFO  io.lettuce.core.KqueueProvider           [70 ] : Starting without optional kqueue library
+2020-04-30 11:41:37.019 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'

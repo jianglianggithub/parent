@@ -1,0 +1,81 @@
+//package com;
+//
+//import com.alibaba.fastjson.JSON;
+//import org.elasticsearch.action.get.GetRequest;
+//import org.elasticsearch.action.get.GetResponse;
+//import org.elasticsearch.action.search.SearchRequest;
+//import org.elasticsearch.action.search.SearchResponse;
+//import org.elasticsearch.client.RestClient;
+//import org.elasticsearch.client.RestHighLevelClient;
+//import org.elasticsearch.index.query.QueryBuilders;
+//import org.elasticsearch.index.query.TermQueryBuilder;
+//import org.elasticsearch.search.SearchHit;
+//import org.elasticsearch.search.builder.SearchSourceBuilder;
+//import org.elasticsearch.search.query.QuerySearchRequest;
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.test.context.junit4.SpringRunner;
+//import org.springframework.web.client.RestTemplate;
+//
+//import java.io.IOException;
+//import java.util.Map;
+//
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
+//public class Test1 {
+//
+//    @Autowired
+//    RestHighLevelClient highLevelClient;
+//
+//    @Autowired
+//    RestClient lowRestClient;
+//
+//    @Autowired
+//    RestTemplate restTemplate;
+//
+//
+//    @Test
+//    public void test1() {
+//        Item item = new Item();
+//        item.commodity_id=4L;
+//        item.commodity_name="吃粑粑，爸爸真好吃";
+//        item.picture_url="http://localhost";
+//        item.price=123.11;
+//        System.out.println(JSON.toJSONString(item));
+//        Map map = restTemplate.postForObject("http://localhost:9200/test/doc/{id}", item, Map.class, item.commodity_id);
+//        System.out.println(map);
+//
+//
+//    }
+//
+//
+//    /**
+//     * 精确查询 对搜索的关键字 不分词
+//     * @throws IOException
+//     */
+//    @Test
+//    public void test2() throws IOException {
+//        SearchRequest request = new SearchRequest("test").types("doc");
+//        SearchSourceBuilder builder = new SearchSourceBuilder();
+//        TermQueryBuilder termQueryBuilder = QueryBuilders.termQuery("commodity_name", "爸爸");
+//        builder.query(termQueryBuilder);
+//        request.source(builder);
+//
+//        SearchResponse response = highLevelClient.search(request);
+//        for (SearchHit hit : response.getHits()) {
+//            System.out.println(hit.getSourceAsMap());
+//        }
+//
+//    }
+//
+//
+//    @Test
+//    public void test3() throws IOException {
+//        GetRequest id = new GetRequest("test").type("doc").id("1");
+//        GetResponse documentFields = highLevelClient.get(id);
+//        System.out.println(documentFields.getSource());
+//
+//    }
+//}

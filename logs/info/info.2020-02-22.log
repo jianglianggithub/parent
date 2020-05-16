@@ -1,0 +1,16 @@
+2020-02-22 14:52:25.559 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 16120 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-02-22 14:52:25.571 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-02-22 14:52:28.598 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-02-22 14:52:28.630 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-02-22 14:52:28.645 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-02-22 14:52:28.645 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-22 14:52:28.813 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-02-22 14:52:28.813 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3134 ms
+2020-02-22 15:02:56.726 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 4816 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-02-22 15:02:56.732 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-02-22 15:02:59.709 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-02-22 15:02:59.735 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-02-22 15:02:59.749 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-02-22 15:02:59.750 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-22 15:02:59.881 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-02-22 15:02:59.882 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3038 ms

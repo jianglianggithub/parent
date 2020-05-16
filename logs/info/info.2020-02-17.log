@@ -1,0 +1,62 @@
+2020-02-17 21:49:35.755 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 18332 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-02-17 21:49:35.760 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-02-17 21:49:40.519 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8888 (http)
+2020-02-17 21:49:40.539 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8888"]
+2020-02-17 21:49:40.582 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-02-17 21:49:40.583 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-17 21:49:40.707 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-02-17 21:49:40.707 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4585 ms
+2020-02-17 21:49:40.988 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 21:49:41.211 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-02-17 21:49:41.336 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8888"]
+2020-02-17 21:49:41.357 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Pausing ProtocolHandler ["http-nio-8888"]
+2020-02-17 21:49:41.358 [main] INFO  o.apache.catalina.core.StandardService   [173] : Stopping service [Tomcat]
+2020-02-17 21:49:41.366 [main] INFO  org.apache.catalina.util.LifecycleBase   [173] : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-02-17 21:49:41.367 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Stopping ProtocolHandler ["http-nio-8888"]
+2020-02-17 21:49:41.367 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Destroying ProtocolHandler ["http-nio-8888"]
+2020-02-17 21:49:41.371 [main] INFO  ConditionEvaluationReportLoggingListener [136] : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-17 21:49:41.375 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 21:53:09.670 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 12172 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-02-17 21:53:09.675 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-02-17 21:53:14.557 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-02-17 21:53:14.576 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-02-17 21:53:14.591 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-02-17 21:53:14.592 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-17 21:53:14.716 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-02-17 21:53:14.717 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4982 ms
+2020-02-17 21:53:14.988 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 21:53:15.280 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-02-17 21:53:15.425 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-02-17 21:53:15.476 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-02-17 21:53:15.480 [main] INFO  com.App                                  [59 ] : Started App in 6.485 seconds (JVM running for 7.092)
+2020-02-17 21:53:40.668 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-17 21:53:40.669 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-02-17 21:53:40.679 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 9 ms
+2020-02-17 22:06:24.547 [http-nio-8889-exec-5] INFO  o.apache.coyote.http11.Http11Processor   [175] : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:415)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:292)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-17 22:06:24.547 [http-nio-8889-exec-4] INFO  o.apache.coyote.http11.Http11Processor   [175] : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:415)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:292)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,20 @@
+
+server:
+  port: 20003
+eureka:
+  client:
+    # 表示是否注册自身到eureka服务器  
+    register-with-eureka: true
+    # 是否从eureka上获取注册信息  
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:20002/eureka/
+spring:
+  application:
+    name: zuul
+
+zuul:
+  routes:
+    1:
+      path: /client1
+      serviceId: client1

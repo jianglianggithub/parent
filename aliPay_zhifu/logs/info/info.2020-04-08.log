@@ -1,0 +1,54 @@
+2020-04-08 21:37:52.524 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on W10-20190813252 with PID 10132 (started by aa in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-08 21:37:52.527 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-08 21:37:55.571 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 21:37:55.575 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 21:37:56.039 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 447ms. Found 0 repository interfaces.
+2020-04-08 21:37:57.232 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:37:57.343 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-08 21:37:57.999 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 6.201 seconds (JVM running for 7.101)
+2020-04-08 21:38:00.064 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:39:35.059 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on W10-20190813252 with PID 12284 (started by aa in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-08 21:39:35.061 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-08 21:39:37.600 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 21:39:37.603 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 21:39:38.083 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 468ms. Found 0 repository interfaces.
+2020-04-08 21:39:39.272 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:39:39.375 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-08 21:39:40.031 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 5.523 seconds (JVM running for 6.288)
+2020-04-08 21:39:41.450 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:40:12.224 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on W10-20190813252 with PID 3124 (started by aa in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-08 21:40:12.226 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-08 21:40:14.791 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 21:40:14.793 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 21:40:15.228 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 424ms. Found 0 repository interfaces.
+2020-04-08 21:40:16.386 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:40:16.489 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-08 21:40:17.108 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 5.466 seconds (JVM running for 6.197)
+2020-04-08 21:40:18.499 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:41:33.343 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on W10-20190813252 with PID 13080 (started by aa in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-08 21:41:33.345 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-08 21:41:35.971 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 21:41:35.975 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 21:41:36.506 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 517ms. Found 0 repository interfaces.
+2020-04-08 21:41:37.674 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 21:41:37.772 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-08 21:41:38.385 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 5.692 seconds (JVM running for 6.465)
+2020-04-08 21:41:39.768 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 22:06:06.070 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on W10-20190813252 with PID 384 (started by aa in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-08 22:06:06.072 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-08 22:06:09.054 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 22:06:09.059 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 22:06:09.579 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 500ms. Found 0 repository interfaces.
+2020-04-08 22:06:10.840 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 22:06:10.948 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-08 22:06:11.594 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 6.149 seconds (JVM running for 6.905)
+2020-04-08 22:06:12.447 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 22:10:31.823 [main] INFO  RedisGeoTest                             [50 ] : Starting RedisGeoTest on W10-20190813252 with PID 11512 (started by aa in D:\java\code\cloud_demo\aliPay_zhifu)
+2020-04-08 22:10:31.824 [main] INFO  RedisGeoTest                             [648] : No active profile set, falling back to default profiles: default
+2020-04-08 22:10:34.564 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 22:10:34.567 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 22:10:35.014 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 434ms. Found 0 repository interfaces.
+2020-04-08 22:10:36.229 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 22:10:36.331 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-08 22:10:36.947 [main] INFO  RedisGeoTest                             [59 ] : Started RedisGeoTest in 5.727 seconds (JVM running for 6.488)
+2020-04-08 22:10:37.662 [Thread-2] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [208] : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,312 @@
+2020-03-18 16:44:53.419 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 16180 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:44:53.424 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:44:55.659 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:44:55.671 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:44:55.679 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:44:55.679 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:44:55.842 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:44:55.842 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 2361 ms
+2020-03-18 16:44:56.014 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:44:56.065 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:44:56.090 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-18 16:44:56.160 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:44:56.176 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:44:56.180 [main] INFO  com.App                                  [59 ] : Started App in 3.458 seconds (JVM running for 4.308)
+2020-03-18 16:45:15.949 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:45:15.950 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:45:15.955 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 5 ms
+2020-03-18 16:47:14.793 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 15012 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:47:14.797 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:47:18.691 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:47:18.717 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:47:18.735 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:47:18.736 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:47:18.895 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:47:18.895 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4035 ms
+2020-03-18 16:47:19.290 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:47:19.490 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:47:19.558 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-18 16:47:19.683 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:47:19.717 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:47:19.722 [main] INFO  com.App                                  [59 ] : Started App in 5.503 seconds (JVM running for 5.943)
+2020-03-18 16:47:23.801 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:47:23.801 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:47:23.810 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 9 ms
+2020-03-18 16:47:45.923 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 16340 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:47:45.929 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:47:50.585 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:47:50.611 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:47:50.626 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:47:50.627 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:47:50.776 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:47:50.777 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4695 ms
+2020-03-18 16:47:51.137 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:47:51.343 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:47:51.408 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-18 16:47:51.534 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:47:51.571 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:47:51.576 [main] INFO  com.App                                  [59 ] : Started App in 6.394 seconds (JVM running for 6.967)
+2020-03-18 16:47:54.413 [http-nio-8889-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:47:54.413 [http-nio-8889-exec-2] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:47:54.421 [http-nio-8889-exec-2] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 7 ms
+2020-03-18 16:48:57.709 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 12168 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:48:57.713 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:49:01.330 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:49:01.344 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:49:01.356 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:49:01.357 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:49:01.455 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:49:01.455 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3683 ms
+2020-03-18 16:49:01.708 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:49:01.881 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:49:02.031 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:49:02.062 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:49:02.066 [main] INFO  com.App                                  [59 ] : Started App in 4.898 seconds (JVM running for 5.332)
+2020-03-18 16:49:06.346 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:49:06.346 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:49:06.352 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 6 ms
+2020-03-18 16:50:39.280 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 4644 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:50:39.283 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:50:43.565 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:50:43.586 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:50:43.599 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:50:43.599 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:50:43.760 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:50:43.761 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4351 ms
+2020-03-18 16:50:44.124 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:50:44.358 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:50:44.562 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:50:44.597 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:50:44.602 [main] INFO  com.App                                  [59 ] : Started App in 5.908 seconds (JVM running for 6.337)
+2020-03-18 16:50:45.589 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:50:45.589 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:50:45.596 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 7 ms
+2020-03-18 16:51:05.922 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 3724 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:51:05.927 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:51:11.274 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:51:11.300 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:51:11.317 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:51:11.318 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:51:11.581 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:51:11.582 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 5572 ms
+2020-03-18 16:51:11.959 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:51:12.155 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:51:12.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:51:12.364 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:51:12.368 [main] INFO  com.App                                  [59 ] : Started App in 7.193 seconds (JVM running for 7.772)
+2020-03-18 16:51:16.778 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:51:16.779 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:51:16.786 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 7 ms
+2020-03-18 16:51:45.389 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 6880 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:51:45.392 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:51:50.164 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:51:50.186 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:51:50.200 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:51:50.200 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:51:50.377 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:51:50.378 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4892 ms
+2020-03-18 16:51:50.707 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:51:50.918 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:51:51.101 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:51:51.141 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:51:51.146 [main] INFO  com.App                                  [59 ] : Started App in 6.372 seconds (JVM running for 6.922)
+2020-03-18 16:51:53.674 [http-nio-8889-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:51:53.674 [http-nio-8889-exec-2] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:51:53.680 [http-nio-8889-exec-2] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 6 ms
+2020-03-18 16:52:23.260 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 6956 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 16:52:23.270 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 16:52:28.924 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 16:52:28.945 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:52:28.960 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 16:52:28.960 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 16:52:29.124 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 16:52:29.124 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 5706 ms
+2020-03-18 16:52:29.530 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 16:52:29.710 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 16:52:29.916 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 16:52:29.956 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 16:52:29.962 [main] INFO  com.App                                  [59 ] : Started App in 7.561 seconds (JVM running for 8.028)
+2020-03-18 16:52:31.784 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 16:52:31.785 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 16:52:31.793 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 8 ms
+2020-03-18 17:06:28.488 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 4332 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:06:28.491 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:06:32.032 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:06:32.051 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:06:32.065 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:06:32.065 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:06:32.201 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:06:32.202 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3643 ms
+2020-03-18 17:06:32.535 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:06:32.779 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:06:33.038 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:06:33.102 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:06:33.109 [main] INFO  com.App                                  [59 ] : Started App in 5.203 seconds (JVM running for 5.631)
+2020-03-18 17:07:28.818 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:07:28.818 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:07:28.824 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 6 ms
+2020-03-18 17:07:28.931 [http-nio-8889-exec-4] WARN  .w.s.m.s.DefaultHandlerExceptionResolver [198] : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.controller.As.bb(java.util.Map,java.util.Map)]
+2020-03-18 17:08:30.962 [http-nio-8889-exec-5] WARN  .w.s.m.s.DefaultHandlerExceptionResolver [198] : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.controller.As.aaaa(java.util.Map,java.util.Map)]
+2020-03-18 17:08:45.250 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 11972 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:08:45.253 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:08:48.941 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:08:48.957 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:08:48.971 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:08:48.971 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:08:49.084 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:08:49.084 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3769 ms
+2020-03-18 17:08:49.326 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:08:49.493 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:08:49.633 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:08:49.661 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:08:49.665 [main] INFO  com.App                                  [59 ] : Started App in 5.01 seconds (JVM running for 5.418)
+2020-03-18 17:08:51.933 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:08:51.934 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:08:51.939 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 5 ms
+2020-03-18 17:08:51.992 [http-nio-8889-exec-2] WARN  .w.s.m.s.DefaultHandlerExceptionResolver [198] : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.controller.As.bb(java.util.Map,java.util.Map)]
+2020-03-18 17:09:29.916 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 236 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:09:29.921 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:09:33.625 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:09:33.641 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:09:33.653 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:09:33.653 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:09:33.774 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:09:33.774 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3791 ms
+2020-03-18 17:09:34.045 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:09:34.220 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:09:34.364 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:09:34.392 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:09:34.395 [main] INFO  com.App                                  [59 ] : Started App in 5.035 seconds (JVM running for 5.459)
+2020-03-18 17:09:42.489 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:09:42.489 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:09:42.494 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 5 ms
+2020-03-18 17:11:11.513 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 15756 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:11:11.517 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:11:15.155 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:11:15.172 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:11:15.184 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:11:15.184 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:11:15.290 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:11:15.291 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3659 ms
+2020-03-18 17:11:15.569 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:11:15.726 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:11:15.897 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:11:15.927 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:11:15.931 [main] INFO  com.App                                  [59 ] : Started App in 4.969 seconds (JVM running for 5.403)
+2020-03-18 17:11:40.750 [http-nio-8889-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:11:40.751 [http-nio-8889-exec-4] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:11:40.759 [http-nio-8889-exec-4] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 8 ms
+2020-03-18 17:12:20.894 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 1908 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:12:20.898 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:12:24.365 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:12:24.384 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:12:24.394 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:12:24.395 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:12:24.574 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:12:24.575 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3606 ms
+2020-03-18 17:12:24.857 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:12:24.956 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:12:25.107 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:12:25.135 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:12:25.138 [main] INFO  com.App                                  [59 ] : Started App in 4.812 seconds (JVM running for 5.236)
+2020-03-18 17:12:31.778 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:12:31.778 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:12:31.785 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 5 ms
+2020-03-18 17:14:09.088 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 6136 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:14:09.093 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:14:12.460 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:14:12.476 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:14:12.486 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:14:12.486 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:14:12.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:14:12.600 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3429 ms
+2020-03-18 17:14:12.911 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:14:13.096 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:14:13.288 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:14:13.320 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:14:13.324 [main] INFO  com.App                                  [59 ] : Started App in 4.788 seconds (JVM running for 5.235)
+2020-03-18 17:14:26.295 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:14:26.295 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:14:26.300 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 5 ms
+2020-03-18 17:14:57.265 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 7784 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:14:57.269 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:15:01.096 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:15:01.116 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:15:01.134 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:15:01.134 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:15:01.278 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:15:01.278 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3927 ms
+2020-03-18 17:15:01.609 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:15:01.806 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:15:01.996 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:15:02.029 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:15:02.033 [main] INFO  com.App                                  [59 ] : Started App in 5.368 seconds (JVM running for 5.806)
+2020-03-18 17:15:15.908 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:15:15.909 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:15:15.918 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 9 ms
+2020-03-18 17:17:46.842 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 14140 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:17:46.850 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:17:50.620 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:17:50.639 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:17:50.651 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:17:50.651 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:17:50.860 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:17:50.861 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3906 ms
+2020-03-18 17:17:51.135 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:17:51.225 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:17:51.382 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:17:51.412 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:17:51.416 [main] INFO  com.App                                  [59 ] : Started App in 5.216 seconds (JVM running for 5.657)
+2020-03-18 17:17:51.995 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:17:51.995 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:17:52.001 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 6 ms
+2020-03-18 17:18:26.150 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 6188 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:18:26.153 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:18:29.644 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:18:29.660 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:18:29.669 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:18:29.670 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:18:29.794 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:18:29.795 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3581 ms
+2020-03-18 17:18:30.107 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:18:30.237 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:18:30.445 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:18:30.479 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:18:30.483 [main] INFO  com.App                                  [59 ] : Started App in 4.885 seconds (JVM running for 5.326)
+2020-03-18 17:18:43.286 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:18:43.287 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:18:43.294 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 7 ms
+2020-03-18 17:20:45.240 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 15112 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:20:45.244 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:20:48.940 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:20:48.956 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:20:48.965 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:20:48.965 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:20:49.071 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:20:49.071 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 3704 ms
+2020-03-18 17:20:49.321 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:20:49.481 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:20:49.641 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:20:49.663 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:20:49.666 [main] INFO  com.App                                  [59 ] : Started App in 4.987 seconds (JVM running for 5.412)
+2020-03-18 17:21:17.998 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:21:17.999 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:21:18.005 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 6 ms
+2020-03-18 17:21:52.423 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 3928 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-18 17:21:52.427 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-18 17:21:57.675 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-18 17:21:57.704 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:21:57.720 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-18 17:21:57.721 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-18 17:21:57.888 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-18 17:21:57.889 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 5396 ms
+2020-03-18 17:21:58.239 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 17:21:58.441 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-03-18 17:21:58.629 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-18 17:21:58.667 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-18 17:21:58.674 [main] INFO  com.App                                  [59 ] : Started App in 6.95 seconds (JVM running for 7.417)
+2020-03-18 17:21:58.880 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 17:21:58.881 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-18 17:21:58.891 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 9 ms
+2020-03-18 17:21:58.937 [http-nio-8889-exec-1] WARN  .w.s.m.s.DefaultHandlerExceptionResolver [198] : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'a' is not present]
+2020-03-18 17:22:01.318 [http-nio-8889-exec-3] WARN  .w.s.m.s.DefaultHandlerExceptionResolver [198] : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'a' is not present]

@@ -1,0 +1,57 @@
+2020-04-10 21:07:10.325 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 15020 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-04-10 21:07:10.330 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-04-10 21:07:13.277 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 21:07:13.280 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-10 21:07:13.912 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 615ms. Found 0 repository interfaces.
+2020-04-10 21:07:14.787 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-04-10 21:07:14.803 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-04-10 21:07:14.814 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-04-10 21:07:14.814 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-04-10 21:07:14.956 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-04-10 21:07:14.957 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4528 ms
+2020-04-10 21:07:15.459 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:07:15.548 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-10 21:07:16.034 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-04-10 21:07:16.061 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-04-10 21:07:16.065 [main] INFO  com.App                                  [59 ] : Started App in 6.573 seconds (JVM running for 7.092)
+2020-04-10 21:07:28.078 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 21:07:28.078 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-04-10 21:07:28.088 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 10 ms
+2020-04-10 21:07:48.228 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 7052 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-04-10 21:07:48.232 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-04-10 21:07:50.939 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 21:07:50.942 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-10 21:07:51.493 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 540ms. Found 0 repository interfaces.
+2020-04-10 21:07:52.439 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-04-10 21:07:52.458 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-04-10 21:07:52.479 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-04-10 21:07:52.479 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-04-10 21:07:52.598 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-04-10 21:07:52.598 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4304 ms
+2020-04-10 21:07:53.078 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:07:53.187 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-10 21:07:53.751 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-04-10 21:07:53.786 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-04-10 21:07:53.789 [main] INFO  com.App                                  [59 ] : Started App in 6.118 seconds (JVM running for 6.586)
+2020-04-10 21:07:55.947 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 21:07:55.947 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-04-10 21:07:55.955 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 7 ms
+2020-04-10 21:08:37.807 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 11548 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-04-10 21:08:37.811 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-04-10 21:08:40.431 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [244] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 21:08:40.433 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [126] : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-10 21:08:41.019 [main] INFO  .s.d.r.c.RepositoryConfigurationDelegate [182] : Finished Spring Data repository scanning in 575ms. Found 0 repository interfaces.
+2020-04-10 21:08:41.811 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-04-10 21:08:41.826 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-04-10 21:08:41.836 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-04-10 21:08:41.836 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-04-10 21:08:41.996 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-04-10 21:08:41.997 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 4121 ms
+2020-04-10 21:08:42.440 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:08:42.516 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping    [54 ] : Adding welcome page: class path resource [static/index.html]
+2020-04-10 21:08:42.931 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-04-10 21:08:42.956 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-04-10 21:08:42.960 [main] INFO  com.App                                  [59 ] : Started App in 5.711 seconds (JVM running for 6.192)
+2020-04-10 21:08:44.985 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 21:08:44.985 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-04-10 21:08:44.992 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 7 ms

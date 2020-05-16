@@ -1,0 +1,48 @@
+2020-03-03 23:36:01.175 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 10236 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-03 23:36:01.179 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-03 23:36:03.618 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-03 23:36:03.630 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-03 23:36:03.638 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-03 23:36:03.638 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-03 23:36:03.707 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-03 23:36:03.707 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 2426 ms
+2020-03-03 23:36:03.875 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-03 23:36:03.956 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-03 23:36:04.020 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-03 23:36:04.036 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-03 23:36:04.039 [main] INFO  com.App                                  [59 ] : Started App in 3.637 seconds (JVM running for 4.38)
+2020-03-03 23:36:24.442 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-03 23:36:24.442 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-03 23:36:24.446 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 4 ms
+2020-03-03 23:36:51.362 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 4544 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-03 23:36:51.365 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-03 23:36:53.345 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-03 23:36:53.356 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-03 23:36:53.363 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-03 23:36:53.363 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-03 23:36:53.428 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-03 23:36:53.428 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 1945 ms
+2020-03-03 23:36:53.581 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-03 23:36:53.656 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-03 23:36:53.714 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-03 23:36:53.729 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-03 23:36:53.731 [main] INFO  com.App                                  [59 ] : Started App in 2.814 seconds (JVM running for 3.46)
+2020-03-03 23:37:02.161 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-03 23:37:02.161 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-03 23:37:02.166 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 5 ms
+2020-03-03 23:42:35.633 [main] INFO  com.App                                  [50 ] : Starting App on W10-20190813252 with PID 5584 (D:\java\code\cloud_demo\aliPay_zhifu\target\classes started by aa in D:\java\code\cloud_demo)
+2020-03-03 23:42:35.641 [main] INFO  com.App                                  [648] : No active profile set, falling back to default profiles: default
+2020-03-03 23:42:37.639 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [90 ] : Tomcat initialized with port(s): 8889 (http)
+2020-03-03 23:42:37.649 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Initializing ProtocolHandler ["http-nio-8889"]
+2020-03-03 23:42:37.656 [main] INFO  o.apache.catalina.core.StandardService   [173] : Starting service [Tomcat]
+2020-03-03 23:42:37.656 [main] INFO  org.apache.catalina.core.StandardEngine  [173] : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-03 23:42:37.723 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring embedded WebApplicationContext
+2020-03-03 23:42:37.723 [main] INFO  o.s.web.context.ContextLoader            [284] : Root WebApplicationContext: initialization completed in 1969 ms
+2020-03-03 23:42:37.877 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor  [171] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-03 23:42:37.952 [main] WARN  ion$DefaultTemplateResolverConfiguration [106] : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-03 23:42:38.009 [main] INFO  o.a.coyote.http11.Http11NioProtocol      [173] : Starting ProtocolHandler ["http-nio-8889"]
+2020-03-03 23:42:38.025 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer  [202] : Tomcat started on port(s): 8889 (http) with context path ''
+2020-03-03 23:42:38.027 [main] INFO  com.App                                  [59 ] : Started App in 2.819 seconds (JVM running for 3.6)
+2020-03-03 23:43:04.888 [http-nio-8889-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]       [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-03 23:43:04.889 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [524] : Initializing Servlet 'dispatcherServlet'
+2020-03-03 23:43:04.893 [http-nio-8889-exec-1] INFO  o.s.web.servlet.DispatcherServlet        [546] : Completed initialization in 4 ms
